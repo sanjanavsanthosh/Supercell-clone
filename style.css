@@ -1,0 +1,462 @@
+body {
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header {
+    height: 78px;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+
+}
+
+.head-main {
+    width: 80%;
+    height: 78px;
+    background-color: black;
+    display: flex;
+    position: fixed;
+}
+
+.head {
+    width: 70%;
+    height: 78px;
+    display: flex;
+}
+
+#img1 {
+    height: 45px;
+    margin: 2%;
+}
+
+
+#ul {
+    list-style-type: none;
+    gap: 25px;
+    display: flex;
+    align-items: center;
+    color: gray;
+    font-size: 17px;
+}
+/* .head-logo{
+    width: 10%;
+    height: 78px;
+     display: flex;
+      flex-direction: row;
+      margin: 20px;
+      grid-template-rows: 10px;
+      margin-left: 20%;
+     
+}
+#logo{
+    width: 30px;
+    height: 30px;
+   
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+} */
+
+.section1 {
+    height: 600px;
+    width: 100%;
+    background-image: url("./frontpage_hero.8bc64969.webp");
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1-main {
+    height: 800px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: -.6px;
+    margin-bottom: .33em;
+    margin-top: 0;
+    line-height: 1.25em;
+    font-family: SupercellHeadline-Heavy, sans-serif;
+    font-weight: 400;
+    display: block;
+    font-size: 3.5em;
+    box-sizing: border-box;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    margin: 0px;
+}
+
+p {
+    color: black;
+    display: block;
+    font-size: larger;
+    line-height: 1.56;
+}
+
+.but {
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: #2d85f3;
+    padding: 1.2em 2em;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-family: SupercellText-Bold, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    transition: background-color .15s cubic-bezier(.645, .045, .355, 1);
+}
+
+.section2 {
+    width: 100%;
+    height: 2450px;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    width: 80%;
+    height: 420px;
+    display: grid;
+    row-gap: 90px;
+    column-gap: 90px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 30px;
+}
+
+.image {
+    width: 100%;
+    margin: 0px;
+
+}
+
+.sec2p {
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: .5em;
+    color: #fb4a9d;
+    font-family: SupercellText-Bold, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.56;
+    box-sizing: border-box;
+    justify-content: center;
+    display: flex;
+    margin-top: 18px;
+}
+
+.sec2pp {
+    font-size: 18px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-family: SupercellText-Medium, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    color: black;
+    margin: 0px;
+}
+
+.sec3 {
+    height: 25px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.but2 {
+    line-height: 1em;
+    text-transform: uppercase;
+    font-family: SupercellText-Bold, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    display: inline-block;
+    background-color: #2d85f3;
+    padding: 1.2em 2em;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.section3 {
+    height: 550px;
+    width: 100%;
+    background-image: url("./bg_wmg_brawlstars.8f6001aa.webp");
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec3-main {
+    width: 80%;
+    height: 550px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.sec3div {
+    height: 550px;
+    width: 500px;
+}
+
+h2 {
+    margin: 0px;
+    padding-bottom: .5em;
+    font-family: SupercellHeadline-Heavy, sans-serif;
+    text-transform: uppercase;
+    font-size: 33px;
+    font-weight: 900;
+    color: white;
+    margin-top: 160px;
+    margin-bottom: 10px;
+}
+
+#pp {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    color: white;
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+#but3 {
+    display: inline-block;
+    text-transform: uppercase;
+    color: #000;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 15px 21px;
+    font-family: SupercellText-Bold, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    border: white;
+    cursor: pointer;
+}
+
+#img3 {
+    width: 550px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+}
+
+.section4 {
+    height: 550px;
+    width: 100%;
+    background-color: #1f7aeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec4-main {
+    width: 80%;
+    height: 550px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+#img4 {
+    width: 550px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+}
+
+.sec4div {
+    height: 550px;
+    width: 580px;
+}
+
+h3 {
+    margin: 0;
+    padding-bottom: .5em;
+    font-family: SupercellHeadline-Heavy, sans-serif;
+    text-transform: uppercase;
+    font-size: 33px;
+    font-weight: 900;
+    color: white;
+    margin-top: 160px;
+    margin-bottom: 10px;
+}
+
+#pp3 {
+    padding-bottom: 20px;
+    font-size: 22px;
+    margin: 0 0 30px;
+    line-height: 1.56;
+    box-sizing: border-box;
+    color: white;
+}
+
+#but4 {
+    display: inline-block;
+    text-transform: uppercase;
+    color: #000;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 15px 21px;
+    font-family: SupercellText-Bold, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    border: white;
+    cursor: pointer;
+}
+
+.dropdown {
+    width: 80%;
+    height: 80px;
+    background-color: #3b3939;
+    position: absolute;
+    display: none;
+    left: 10%;
+    right: 10%;
+    top: 75px;
+}
+
+#games:hover .dropdown {
+    display: block;
+}
+
+.footer {
+    height: 350px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec5main {
+    height: 350px;
+    width: 80%;
+}
+
+.sec5tag {
+    height: 80px;
+    width: 100%;
+    display: grid;
+    margin-top: 22px;
+    margin-bottom: 33px;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.sec5div1 {
+    height: 80px;
+    width: 500px;
+
+}
+
+#img2 {
+    height: 25px;
+    width: 27px;
+    margin-inline: 10px;
+    margin-left: 0px;
+
+}
+.sec5div2 {
+    height: 50px;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 35px;
+    margin-top: 20px;
+}
+
+#img3 {
+    height: 50px;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 10px;
+}
+
+#sec5p {
+    color: white;
+    font-family: SupercellText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.sec5list {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    unicode-bidi: isolate;
+    justify-content: space-between;
+}
+
+#ul5 {
+    list-style-type: none;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+    padding-inline-start: 40px;
+    padding-right: 60px;
+    padding-left: 0%;
+    margin: 0px;   
+}
+
+.secfoot {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+   
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #333;
+    margin: 30px 0;
+}
+.sec5logo{
+     display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+.sec5ppfoot{
+    width:300px;
+}
+#ppfoot{
+    color: #969696;
+    font-style: normal;
+    display: block;
+    font-family: SupercellText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0%;
+}
+#footimg{
+    height: 40px;
+    width: 50px;
+    padding-left: 800px;
+    margin-top: 25px;
+}
