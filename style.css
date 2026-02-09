@@ -103,7 +103,7 @@ p {
 
 .section2 {
     width: 100%;
-    height: 2450px;
+    height: 2232px;
     display: flex;
     justify-content: center;
 }
@@ -447,4 +447,5 @@ hr {
     width: 50px;
     padding-left: 800px;
     margin-top: 25px;
+
 }
